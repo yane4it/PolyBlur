@@ -1,0 +1,20 @@
+{
+  "compatibilityLevel": "${java_level}",
+  "minVersion": "0.7",
+  "package": "org.polyfrost.polyblur.mixin",
+  "refmap": "mixins.${id}.refmap.json",
+  "injectors": {
+    "maxShiftBy": 5
+  },
+  "verbose": true,
+  "client": [
+    "BlurHandlerImplMixin",
+    "BlurModMixin",
+    "EntityRendererMixin",
+    "EntityRendererMixin_PhosphorBlur",
+    "FramebufferMixin",
+    "MinecraftMixin",
+    "OptifineConfigMixin",
+    "ShaderGroupAccessor"
+  ]
+}
